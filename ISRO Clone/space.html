@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Space Research Organisation - ISRO</title>
+  <meta name="description" content="Official website of the Indian Space Research Organisation (ISRO). Explore missions, news, gallery, and more.">
+  <link rel="icon" href="media/isro-favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="header" role="banner">
+      <div class="header-banner-row">
+        <img src="media/isro-logo.png" alt="ISRO Logo" class="isro-logo" width="56" height="56" decoding="async">
+        <div class="isro-title">
+          <span class="hindi">भारतीय अंतरिक्ष अनुसंधान संगठन, अंतरिक्ष विभाग</span>
+          <span class="eng">Indian Space Research Organisation, Department of Space</span>
+          <span class="gov">भारत सरकार / Government of India</span>
+        </div>
+        <img src="media/dos-logo.png" alt="Department of Space Logo" class="isro-logo" width="56" height="56" decoding="async">
+        <img src="media/india-emblem.png" alt="Government of India Emblem" class="isro-logo" width="56" height="56" decoding="async">
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home" tabindex="0">Home</a></li>
+          <li><a href="#missions" tabindex="0">Missions</a></li>
+          <li><a href="#gallery" tabindex="0">Gallery</a></li>
+          <li><a href="#videos" tabindex="0">Videos</a></li>
+          <li><a href="#contact" tabindex="0">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero" aria-label="ISRO Hero Section">
+        <video class="hero-video" src="media/GSLV_F15_NVS02_Liftoff_onboard.webm" autoplay muted loop playsinline poster="media/gslv-poster.jpg" aria-hidden="true"></video>
+        <div class="hero-text">
+          <h1>Indian Space Research Organisation</h1>
+          <p>Space technology for national development</p>
+        </div>
+      </section>
+
+      <section class="flash-news" aria-label="Flash news ticker">
+        <div class="ticker" role="status" aria-live="polite">
+          <span>SPADEX mission – successful second docking • </span>
+          <span>Gaganyaan abort-test success • </span>
+          <span>Aditya-L1 observes powerful X-class flare • </span>
+          <span>YUVIKA 2025 selection list released • </span>
+          <span>ISRO chairs “Space & Major Disasters” charter</span>
+        </div>
+      </section>
+
+      <section id="missions" class="news" aria-labelledby="latest-updates-title">
+        <h2 class="section-title" id="latest-updates-title">Latest Updates</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <img src="media/ch3-lander.jpg" alt="Chandrayaan-3 Lander on lunar surface" width="320" height="180" loading="lazy">
+            <h3>Chandrayaan-3 Science Results</h3>
+            <p>LIBS confirms sulphur on lunar surface; RAMBHA-LP measures near-surface plasma.</p>
+            <a href="https://www.isro.gov.in/Chandrayaan3.html" target="_blank" rel="noopener" class="read-more">Read more</a>
+          </article>
+          <article class="news-card">
+            <img src="media/gaganyaan-tv-d1.jpg" alt="Gaganyaan Test Vehicle" width="320" height="180" loading="lazy">
+            <h3>Gaganyaan Abort-Test</h3>
+            <p>Crew-escape system validated; next uncrewed orbital flight in 2025.</p>
+            <a href="https://www.isro.gov.in/Gaganyaan.html" target="_blank" rel="noopener" class="read-more">Read more</a>
+          </article>
+          <article class="news-card">
+            <img src="media/aditya-l1-launch.jpg" alt="Aditya-L1 Launch" width="320" height="180" loading="lazy">
+            <h3>Aditya-L1 Flare Capture</h3>
+            <p>SUIT telescope records rare ultraviolet plasma ejection.</p>
+            <a href="https://www.isro.gov.in/Aditya_L1.html" target="_blank" rel="noopener" class="read-more">Read more</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery" aria-label="Mission gallery">
+        <h2 class="section-title">Mission Gallery</h2>
+        <div class="gallery-track" role="list">
+          <figure role="listitem">
+            <img src="media/gaganyaan.jpg" alt="Gaganyaan TV-D1 Test Vehicle" width="240" height="135" loading="lazy">
+            <figcaption>Gaganyaan TV-D1</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="media/ch3-lander.jpg" alt="Chandrayaan-3 Lander" width="240" height="135" loading="lazy">
+            <figcaption>Chandrayaan-3 Lander</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="media/lvm3-night.jpg" alt="LVM-3 Lift-off at night" width="240" height="135" loading="lazy">
+            <figcaption>LVM-3 Lift-off</figcaption>
+          </figure>
+          <figure role="listitem">
+            <img src="media/gsat7a.jpg" alt="GSLV-F11 / GSAT-7A Satellite" width="240" height="135" loading="lazy">
+            <figcaption>GSLV-F11 / GSAT-7A</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="videos" class="videos" aria-label="Featured videos">
+        <h2 class="section-title">Featured Videos</h2>
+        <div class="video-grid">
+          <iframe src="https://www.youtube.com/embed/DLA_64yz8Ss" title="Chandrayaan-3 soft-landing" allowfullscreen width="360" height="215" loading="lazy"></iframe>
+          <iframe src="https://www.youtube.com/embed/rEoDdzCJFGM" title="Pragyan rover rollout" allowfullscreen width="360" height="215" loading="lazy"></iframe>
+          <iframe src="https://www.youtube.com/embed/mCiUEY3Y5EM" title="Pragyan rover traverse" allowfullscreen width="360" height="215" loading="lazy"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" role="contentinfo">
+      <div class="footer-content">
+        <p>&copy; 2025 Indian Space Research Organisation. All Rights Reserved.</p>
+        <address>
+          <strong>ISRO Headquarters</strong><br>
+          Antariksh Bhavan, New BEL Road,<br>
+          Bengaluru 560 094, India<br>
+          <a href="mailto:icrb@isro.gov.in">icrb@isro.gov.in</a>
+        </address>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul>
+            <li><a href="https://www.isro.gov.in/" target="_blank" rel="noopener">Official ISRO Portal</a></li>
+            <li><a href="https://www.isro.gov.in/contact-us.html" target="_blank" rel="noopener">Contact Us</a></li>
+            <li><a href="https://www.isro.gov.in/careers.html" target="_blank" rel="noopener">Careers</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
