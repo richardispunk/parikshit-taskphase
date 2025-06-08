@@ -67,7 +67,7 @@
 }
 
 
-/* Animation usage */
+
 .hero-video { animation: heroZoom 20s ease-in-out infinite alternate; }
 .hero-text { animation: fadeUp 1.2s ease-out forwards; }
 .ticker { animation: marquee 28s linear infinite; }
@@ -104,7 +104,7 @@
 .video-grid iframe:nth-child(3) { animation-delay: 0.9s; }
 
 
-/* Mission Gallery Auto Horizontal Scroll */
+
 .gallery-track {
   display: flex;
   gap: 2rem;
