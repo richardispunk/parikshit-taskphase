@@ -179,7 +179,7 @@
   width: max-content;
   min-width: 100vw;
   align-items: flex-start;
-  /* animation handled in animations.css */
+  
 }
 .gallery-track figure {
   min-width: 240px;
